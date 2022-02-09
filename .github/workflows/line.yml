@@ -1,14 +1,14 @@
-name: HtmlCheck
+name: HTMLCheck
 on: 
-   push:
-     branches: [line]
+  push:
+    branches: [line]
  
 jobs:
   TestHtml:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
-      - name: Check HTML Syntax.
+      - name: Check HTML Syntax
         run: npx pretter *.html
  
 
