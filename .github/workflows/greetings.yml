@@ -1,4 +1,4 @@
-name: Greetings
+name: hy action going pr 
 
 on: [pull_request, issues, push]
 
