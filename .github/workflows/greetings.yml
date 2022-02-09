@@ -14,3 +14,4 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'hi you create an issue. executed by Github Actions'
         pr-message: 'Message that will be displayed on users first pull request'
+        push-message: 'Just now a new feature is and push is happened' 
